@@ -1289,11 +1289,11 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 0.2}
+  m_Size: {x: 2, y: 2, z: 0}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!212 &631687063
 SpriteRenderer:
@@ -1381,11 +1381,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00b7b288ce46d1d4cad6e96b2dc6fda5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  dialogueData: {fileID: 0}
-  dialoguePanel: {fileID: 0}
-  dialogueText: {fileID: 0}
-  nameText: {fileID: 0}
-  portraitImage: {fileID: 0}
 --- !u!1 &719841761
 GameObject:
   m_ObjectHideFlags: 0
@@ -28269,7 +28264,7 @@ Camera:
   far clip plane: 1000
   field of view: 34
   orthographic: 1
-  orthographic size: 4.0625
+  orthographic size: 4.821429
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -28294,7 +28289,7 @@ Transform:
   m_GameObject: {fileID: 1643044781}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -7.776038, y: -5.9375, z: -10}
+  m_LocalPosition: {x: -6.111111, y: -5, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
