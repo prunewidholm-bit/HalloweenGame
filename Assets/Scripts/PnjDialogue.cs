@@ -12,5 +12,13 @@ namespace JPO
         public AudioClip voiceSound;
         public float voicePitch = 1f;
 
+        [Header("choix")]
+        public bool hasChoice;
+        public int guiltyNumber;
+        public string winScene;
+        public string loseScene;
+
+
+
     }
 }

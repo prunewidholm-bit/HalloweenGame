@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Pnj1Dialogue
   m_EditorClassIdentifier: Assembly-CSharp::JPO.PnjDialogue
   pngName: Pnj1
-  npcPortrait: {fileID: 7482667652216324306, guid: 48d07fa78233b3244a9b863a14c212f1, type: 3}
+  npcPortrait: {fileID: 3114133534609774381, guid: 24a798231ec80df459bc1c1e568d5e00, type: 3}
   dialogueLines:
   - Bonjour blablabla
   - bloubloubloublou
@@ -22,3 +22,7 @@ MonoBehaviour:
   typingSpeed: 0.05
   voiceSound: {fileID: 0}
   voicePitch: 1
+  hasChoice: 0
+  guiltyNumber: 0
+  winScene: 
+  loseScene: 
