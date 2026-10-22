@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9fe340bbb851a2f46a185e025c39443d, type: 3}
   m_Name: Pnj1Dialogue
   m_EditorClassIdentifier: Assembly-CSharp::JPO.PnjDialogue
-  pngName: Pnj1
+  pngName: Jason
   npcPortrait: {fileID: 3114133534609774381, guid: 24a798231ec80df459bc1c1e568d5e00, type: 3}
   dialogueLines:
   - Bonjour blablabla

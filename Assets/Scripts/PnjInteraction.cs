@@ -23,6 +23,11 @@ namespace JPO
                 dialogueManager.Interact(dialogue);
                 Debug.Log("e");
             }
+
+            if (playerNear && Keyboard.current.spaceKey.wasPressedThisFrame)
+            {
+                dialogueManager.ShowSheet(dialogue);
+            }
         }
 
         private void OnTriggerEnter2D(Collider2D other)
@@ -39,6 +44,7 @@ namespace JPO
             if (other.CompareTag("Player"))
             {
                 playerNear = false;
+                dialogueManager.HideSheet();
                 Debug.Log("player quitte le collider");
             }
         }   

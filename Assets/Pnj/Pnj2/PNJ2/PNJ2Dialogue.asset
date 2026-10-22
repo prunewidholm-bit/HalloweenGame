@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9fe340bbb851a2f46a185e025c39443d, type: 3}
   m_Name: PNJ2Dialogue
   m_EditorClassIdentifier: Assembly-CSharp::JPO.PnjDialogue
-  pngName: 
-  npcPortrait: {fileID: 0}
+  pngName: "Ma\xEEtresse"
+  npcPortrait: {fileID: 8771172878425201234, guid: 745eb0027c3134342a8544a0427c6094, type: 3}
   dialogueLines:
   - gdgqiifogkssjdhs
   - gdgqiifogkssjdhs
@@ -26,3 +26,4 @@ MonoBehaviour:
   guiltyNumber: 4
   winScene: VictoryScene
   loseScene: DefeatScene
+  description: elle adore le caca

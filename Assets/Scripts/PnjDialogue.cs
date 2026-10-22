@@ -18,6 +18,9 @@ namespace JPO
         public string winScene;
         public string loseScene;
 
+        [Header ("Fiche Perso0")]
+        [TextArea] public string description;
+
 
 
     }

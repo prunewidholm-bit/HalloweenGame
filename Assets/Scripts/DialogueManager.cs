@@ -14,6 +14,13 @@ namespace JPO
         [SerializeField] private PlayerController player;
         [SerializeField] private GameObject choicesPanel;
         [SerializeField] private int numberOfSupect = 6;
+        [SerializeField] private TMP_Text nameText;
+
+        [Header ("Fiche Perso")]
+        [SerializeField] private GameObject sheetPanel;
+        [SerializeField] private Image sheetPortrait;
+        [SerializeField] private TMP_Text sheetName;
+        [SerializeField] private TMP_Text sheetDescription;
 
 
 
@@ -27,6 +34,7 @@ namespace JPO
         {
             dialoguePanel.SetActive(false);
             choicesPanel.SetActive(false);
+            sheetPanel.SetActive(false);
         }
 
         public void Interact(PnjDialogue dialogue)
@@ -49,6 +57,7 @@ namespace JPO
 
             npcPortrait.sprite = currentDialogue.npcPortrait;
             dialogueText.text = currentDialogue.dialogueLines[0];
+            nameText.text = currentDialogue.pngName;
 
             dialoguePanel.SetActive(true);
             player.DisableInput();
@@ -94,6 +103,19 @@ namespace JPO
             dialoguePanel.SetActive(false);
             player.EnableInput();
 
+        }
+
+        public void ShowSheet(PnjDialogue dialogue)
+        { 
+            sheetPortrait.sprite = dialogue.npcPortrait;
+            sheetName.text = dialogue.pngName;
+            sheetDescription.text = dialogue.description;
+            sheetPanel.SetActive(true);
+        }
+
+        public void HideSheet()
+        {
+            sheetPanel.SetActive(false);
         }
 
     }
