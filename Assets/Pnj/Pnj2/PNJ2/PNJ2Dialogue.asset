@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: PNJ2Dialogue
   m_EditorClassIdentifier: Assembly-CSharp::JPO.PnjDialogue
   pngName: "Ma\xEEtresse"
-  npcPortrait: {fileID: 8771172878425201234, guid: 745eb0027c3134342a8544a0427c6094, type: 3}
+  npcPortrait: {fileID: 4090567723568725144, guid: 3e0e5fd790d3e7e469e9095aff3efb5c, type: 3}
   dialogueLines:
   - gdgqiifogkssjdhs
   - gdgqiifogkssjdhs

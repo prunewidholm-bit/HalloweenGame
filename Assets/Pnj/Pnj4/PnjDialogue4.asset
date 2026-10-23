@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9fe340bbb851a2f46a185e025c39443d, type: 3}
   m_Name: PnjDialogue4
   m_EditorClassIdentifier: Assembly-CSharp::JPO.PnjDialogue
-  pngName: Citrouille
-  npcPortrait: {fileID: 6628740861250703841, guid: e47965bc3a911384594f5adb4c9be0c9, type: 3}
+  pngName: Jacko
+  npcPortrait: {fileID: 3666754549596568093, guid: b2b96bd534a4d8345b4bec16cf31391d, type: 3}
   dialogueLines:
   - caca
   autoProgressLines: 

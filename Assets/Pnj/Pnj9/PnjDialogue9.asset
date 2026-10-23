@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: PnjDialogue9
   m_EditorClassIdentifier: Assembly-CSharp::JPO.PnjDialogue
   pngName: Manu
-  npcPortrait: {fileID: -9214089476276447546, guid: d60000f8e749b7a4f923833bee298786, type: 3}
+  npcPortrait: {fileID: 6763183401822458178, guid: f8602252330680b4db5a8853f38254b0, type: 3}
   dialogueLines:
   - je suis une salope
   autoProgressLines: 

@@ -60,6 +60,7 @@ namespace JPO
             nameText.text = currentDialogue.pngName;
 
             dialoguePanel.SetActive(true);
+            sheetPanel.SetActive(false);
             player.DisableInput();
 
         }
@@ -107,10 +108,15 @@ namespace JPO
 
         public void ShowSheet(PnjDialogue dialogue)
         { 
-            sheetPortrait.sprite = dialogue.npcPortrait;
-            sheetName.text = dialogue.pngName;
-            sheetDescription.text = dialogue.description;
-            sheetPanel.SetActive(true);
+            if (!isOpen)
+            {
+                sheetPortrait.sprite = dialogue.npcPortrait;
+                sheetName.text = dialogue.pngName;
+                sheetDescription.text = dialogue.description;
+                sheetPanel.SetActive(true);
+            }
+           
+
         }
 
         public void HideSheet()

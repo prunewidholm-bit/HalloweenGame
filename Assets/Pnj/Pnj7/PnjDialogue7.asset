@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9fe340bbb851a2f46a185e025c39443d, type: 3}
   m_Name: PnjDialogue7
   m_EditorClassIdentifier: Assembly-CSharp::JPO.PnjDialogue
-  pngName: Frankenstein
-  npcPortrait: {fileID: 9032372611567104067, guid: 4d77ccfa449f8444185907c3ba3e8bd9, type: 3}
+  pngName: Frankie
+  npcPortrait: {fileID: 8780711281018655023, guid: ad37a867ec7f1fa4ea0751e0cff21277, type: 3}
   dialogueLines:
   - ougaouga
   autoProgressLines: 

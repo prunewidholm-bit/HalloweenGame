@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9fe340bbb851a2f46a185e025c39443d, type: 3}
   m_Name: PnjDialogue8
   m_EditorClassIdentifier: Assembly-CSharp::JPO.PnjDialogue
-  pngName: Teleteber
-  npcPortrait: {fileID: -3503583783613751625, guid: bbf00104905a5704b98ecb77eefd62e3, type: 3}
+  pngName: Lola
+  npcPortrait: {fileID: -7406984618932021209, guid: 9fcb26b3275f3254aaad2cbdee544f48, type: 3}
   dialogueLines: []
   autoProgressLines: 
   autoProgressDelay: 1.5
@@ -24,3 +24,4 @@ MonoBehaviour:
   guiltyNumber: 0
   winScene: 
   loseScene: 
+  description: 

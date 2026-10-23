@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9fe340bbb851a2f46a185e025c39443d, type: 3}
   m_Name: PnjDialogue3
   m_EditorClassIdentifier: Assembly-CSharp::JPO.PnjDialogue
-  pngName: Casper
-  npcPortrait: {fileID: 1799013526061731172, guid: 12690ae99bb22974d86571bd4e3c54d7, type: 3}
+  pngName: Phanty
+  npcPortrait: {fileID: 6047072727271755395, guid: 2afb67e6ea6fbf04f912abc20ffb05f9, type: 3}
   dialogueLines: []
   autoProgressLines: 
   autoProgressDelay: 1.5
@@ -24,3 +24,4 @@ MonoBehaviour:
   guiltyNumber: 0
   winScene: 
   loseScene: 
+  description: 
