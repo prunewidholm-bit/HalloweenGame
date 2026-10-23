@@ -14,7 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::JPO.PnjDialogue
   pngName: Lola
   npcPortrait: {fileID: -7406984618932021209, guid: 9fcb26b3275f3254aaad2cbdee544f48, type: 3}
-  dialogueLines: []
+  dialogueLines:
+  - Je suis bien contente qu'il n'y ait plus de bonbons !
+  - "je n'\xE9tais pas du tout avec Phanty et la personne aux cheveux ch\xE2tains..."
+  - le voleur ne ment JAMAIS !
   autoProgressLines: 
   autoProgressDelay: 1.5
   typingSpeed: 0.05
@@ -24,4 +27,5 @@ MonoBehaviour:
   guiltyNumber: 0
   winScene: 
   loseScene: 
-  description: 
+  description: "Lola poss\xE8de des yeux bleus et un tatouage malabar en forme d'aspirateur.\nElle
+    a l'air maladroite !"

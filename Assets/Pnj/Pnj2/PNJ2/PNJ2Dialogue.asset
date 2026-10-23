@@ -15,8 +15,10 @@ MonoBehaviour:
   pngName: "Ma\xEEtresse"
   npcPortrait: {fileID: 4090567723568725144, guid: 3e0e5fd790d3e7e469e9095aff3efb5c, type: 3}
   dialogueLines:
-  - gdgqiifogkssjdhs
-  - gdgqiifogkssjdhs
+  - Oh non, les bonbons pour les enfants!!!
+  - "ils ont disparu... Ou alors non, ils ont \xE9t\xE9 VOL\xC9S par l'un des \xE9l\xE8ves."
+  - "TOI qui es d\xE9guis\xE9 en d\xE9tective, d\xE9couvre le coupable pour que les
+    enfants ne soient pas d\xE9\xE7us pour Halloween."
   autoProgressLines: 
   autoProgressDelay: 1.5
   typingSpeed: 0.05
@@ -26,4 +28,4 @@ MonoBehaviour:
   guiltyNumber: 4
   winScene: VictoryScene
   loseScene: DefeatScene
-  description: elle adore le caca
+  description: "Ce n'est pas tr\xE8s correct de scruter un professeur !"

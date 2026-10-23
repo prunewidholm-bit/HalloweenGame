@@ -15,8 +15,10 @@ MonoBehaviour:
   pngName: Jayson
   npcPortrait: {fileID: -5609274221176894078, guid: 7431f006b40d8474d9fbf332802c870c, type: 3}
   dialogueLines:
-  - Bonjour blablabla
-  - bloubloubloublou
+  - je suis triste qu'il n'y ait plus de bonbons...
+  - Mais je crois avoir vu le voleur en costume !
+  - "De plus, je sais que la personne aux yeux bleus dit exactement le contraire
+    de ce qu'elle pense... \xC9trange."
   autoProgressLines: 0100
   autoProgressDelay: 1.5
   typingSpeed: 0.05
@@ -26,4 +28,5 @@ MonoBehaviour:
   guiltyNumber: 0
   winScene: 
   loseScene: 
-  description: 
+  description: "Jason a le cr\xE2ne ras\xE9, des yeux bruns et un masque avec des
+    traces de sang.\nIl a l'air d'avoir le moral dans les chaussettes..."

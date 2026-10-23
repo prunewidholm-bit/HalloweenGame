@@ -14,7 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::JPO.PnjDialogue
   pngName: Phanty
   npcPortrait: {fileID: 6047072727271755395, guid: 2afb67e6ea6fbf04f912abc20ffb05f9, type: 3}
-  dialogueLines: []
+  dialogueLines:
+  - Je suis triste que Manu m'ait menti...
+  - "C'est toujours la m\xEAme chose avec lui !"
+  - Le voleur porte du bleu et pas de masque.
+  - 'Ah oui, et Frankie se trompe souvent sur les gens. '
   autoProgressLines: 
   autoProgressDelay: 1.5
   typingSpeed: 0.05
@@ -24,4 +28,5 @@ MonoBehaviour:
   guiltyNumber: 0
   winScene: 
   loseScene: 
-  description: 
+  description: "Phanty a des yeux verts et une magnifique chevelure blonde, couverte
+    par son drap blanc.\r\nIl a l'air f\xE2ch\xE9."

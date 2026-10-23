@@ -15,7 +15,9 @@ MonoBehaviour:
   pngName: Frankie
   npcPortrait: {fileID: 8780711281018655023, guid: ad37a867ec7f1fa4ea0751e0cff21277, type: 3}
   dialogueLines:
-  - ougaouga
+  - Je suis assez triste de ne pas avoir de bonbon.
+  - "Je soup\xE7onne Jayson d'\xEAtre le VOLEUR !"
+  - Car le voleur ne porte pas de maquillage.
   autoProgressLines: 
   autoProgressDelay: 1.5
   typingSpeed: 0.05
@@ -25,4 +27,5 @@ MonoBehaviour:
   guiltyNumber: 0
   winScene: 
   loseScene: 
-  description: 
+  description: "Frankie a des cheveux bruns, et est couvert de maquillage.\nIl a
+    l'air gentil, mais pas tr\xE8s d\xE9gourdi.\n"

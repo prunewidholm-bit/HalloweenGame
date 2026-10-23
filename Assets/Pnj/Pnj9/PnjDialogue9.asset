@@ -15,7 +15,9 @@ MonoBehaviour:
   pngName: Manu
   npcPortrait: {fileID: 6763183401822458178, guid: f8602252330680b4db5a8853f38254b0, type: 3}
   dialogueLines:
-  - je suis une salope
+  - "je suis d\xE9vast\xE9 que mes camarades ne puissent pas profiter des bonbons..."
+  - "C'est l'individu au cr\xE2ne ras\xE9 qui est le plus coupable, alors que je
+    suis totalement innocent."
   autoProgressLines: 
   autoProgressDelay: 1.5
   typingSpeed: 0.05
@@ -25,4 +27,6 @@ MonoBehaviour:
   guiltyNumber: 0
   winScene: 
   loseScene: 
-  description: 
+  description: "Manu poss\xE8de un tatouage malabar en forme de dollar et une cravate
+    bleue, ainsi qu'un smoking beaucoup trop CHER !\nIl a l'air de manigancer quelque
+    chose ?!\n"

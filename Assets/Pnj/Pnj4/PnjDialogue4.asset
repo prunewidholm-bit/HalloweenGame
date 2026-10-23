@@ -15,7 +15,10 @@ MonoBehaviour:
   pngName: Jacko
   npcPortrait: {fileID: 3666754549596568093, guid: b2b96bd534a4d8345b4bec16cf31391d, type: 3}
   dialogueLines:
-  - caca
+  - "Je suis si boulevers\xE9e par la disparition des bonbons..."
+  - "J'\xE9tais occup\xE9 \xE0 jouer avec la blonde et l'unique personne aux yeux
+    bleus."
+  - "Si \xE7a peut t'aider, le voleur porte un tatouage malabar en forme de dollar"
   autoProgressLines: 
   autoProgressDelay: 1.5
   typingSpeed: 0.05
@@ -25,4 +28,5 @@ MonoBehaviour:
   guiltyNumber: 0
   winScene: 
   loseScene: 
-  description: 
+  description: "Jacko poss\xE8de des Cheveux ch\xE2tain , des yeux jaune et un masque
+    de citrouille.\nIl a l'air stress\xE9 !"
