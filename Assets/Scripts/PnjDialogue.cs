@@ -14,6 +14,7 @@ namespace JPO
 
         [Header("choix")]
         public bool hasChoice;
+        [TextArea] public string questionLine;
         public int guiltyNumber;
         public string winScene;
         public string loseScene;
@@ -21,6 +22,7 @@ namespace JPO
         [Header ("Fiche Perso0")]
         [TextArea] public string description;
 
+        
 
 
     }

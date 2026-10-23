@@ -21,6 +21,8 @@ namespace JPO
             else if (Instance != this) Destroy(gameObject);
             // Listen for player death on the event bus
             EventBus.playerDies += HandlePlayerDeath;
+
+            Screen.SetResolution(1920, 1080, FullScreenMode.FullScreenWindow);
         }
 
         private void Update()

@@ -12,8 +12,8 @@ EditorBuildSettings:
     path: Assets/Scenes/MenuScene.unity
     guid: f69213b4844367843a906ec53def10aa
   - enabled: 1
-    path: Assets/Scenes/GameSceneSmall.unity
-    guid: 8c9cfa26abfee488c85f1582747f6a02
+    path: Assets/Scenes/GameScene.unity
+    guid: 3c9d82bf56a25be41a21673ae1db3353
   - enabled: 1
     path: Assets/Scenes/VictoryScene.unity
     guid: f6d2e811ee6980747889def0251a72db

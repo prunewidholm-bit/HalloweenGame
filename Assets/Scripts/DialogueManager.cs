@@ -43,7 +43,7 @@ namespace JPO
             {
                 OpenDialogue(dialogue);
             }
-            else
+            else if (!choicesPanel.activeSelf)
             {
                 NextLines();
             }
@@ -56,7 +56,17 @@ namespace JPO
             linesIndex = 0;
 
             npcPortrait.sprite = currentDialogue.npcPortrait;
-            dialogueText.text = currentDialogue.dialogueLines[0];
+            if (currentDialogue.hasChoice && supectTalkedTo >= numberOfSupect)
+            {
+                dialogueText.text = currentDialogue.questionLine;
+                choicesPanel.SetActive(true);
+                Cursor.visible = true;
+                Cursor.lockState = CursorLockMode.None;
+            }
+            else
+            {
+                dialogueText.text = currentDialogue.dialogueLines[0];
+            }
             nameText.text = currentDialogue.pngName;
 
             dialoguePanel.SetActive(true);
@@ -75,14 +85,8 @@ namespace JPO
             }
             else
             {
-               if (currentDialogue.hasChoice && supectTalkedTo >= numberOfSupect)
-               {
-                    choicesPanel.SetActive(true);
-               }
-               else
-               {
-                    CloseDialogue();
-               }
+               CloseDialogue();
+               
             }
         }
 

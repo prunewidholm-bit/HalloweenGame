@@ -9793,7 +9793,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f453f694addf4275988fac205bc91968, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Unity.Cinemachine::Unity.Cinemachine.CinemachineConfiner2D
-  BoundingShape2D: {fileID: 758661553}
+  BoundingShape2D: {fileID: 628992021}
   Damping: 0.5
   SlowingDistance: 5
   OversizeWindow:
@@ -9857,7 +9857,7 @@ MonoBehaviour:
     CustomLookAtTarget: 0
   Lens:
     FieldOfView: 34
-    OrthographicSize: 5
+    OrthographicSize: 2.45
     NearClipPlane: 0.3
     FarClipPlane: 1000
     Dutch: 0
@@ -37896,7 +37896,7 @@ Camera:
   far clip plane: 1000
   field of view: 34
   orthographic: 1
-  orthographic size: 4.821429
+  orthographic size: 2.4107144
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -37921,7 +37921,7 @@ Transform:
   m_GameObject: {fileID: 1643044781}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6.42857, y: -5.17857, z: -10}
+  m_LocalPosition: {x: -64.65445, y: -19.439999, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

@@ -25,6 +25,7 @@ MonoBehaviour:
   voiceSound: {fileID: 0}
   voicePitch: 1
   hasChoice: 1
+  questionLine: "Alors, selon toi, quelle \xE9l\xE8ve est coupable ?"
   guiltyNumber: 4
   winScene: VictoryScene
   loseScene: DefeatScene
